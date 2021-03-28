@@ -2,11 +2,13 @@ package br.com.treinamento;
 
 public class ComparaTipos {
     public static void main(String[] args) {
-        char nome = "X";
+        // String nome = "";
+        // String nome = null;
+        String nome = new String();
         if(nome instanceof String) {
-            System.out.println("e String");
+            System.out.println("e uma instancia de String;");
         } else {
-            System.out.println("Nao e String");
+            System.out.println("nao e uma instancia de String;");
         }
     }
 }
